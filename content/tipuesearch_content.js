@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': 'cmsimde_site \n', 'tags': '', 'url': 'About.html'}, {'title': 'Week1~Week5', 'text': '', 'tags': '', 'url': 'Week1~Week5.html'}]};
+var tipuesearch = {"pages": [{'title': 'About', 'text': '網際內容管理 \n 個人網站: cmsimde_site (s40723207.github.io) \n 個人倉儲: s40723207/wcm2022 (github.com) \n \n', 'tags': '', 'url': 'About.html'}, {'title': 'Week1~Week5', 'text': 'Week1 \n 設定倉儲 \n 1.先設定SSH \n 2.下載倉儲 \n 3.將cmsimde載下來開始設定網站 \n', 'tags': '', 'url': 'Week1~Week5.html'}]};

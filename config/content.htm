@@ -10,6 +10,11 @@
 <p>2.下載倉儲</p>
 <p>3.將cmsimde載下來開始設定網站</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/n2QqyY27J9g" width="560"></iframe></p>
+<p><strong>ssh格式不支援</strong></p>
+<p><strong><img alt="" height="131" src="/images/4.18.png" width="1000"/></strong></p>
+<p>後面上傳遇到了這個問題，上面寫著這個格式的加密不夠長，需要變換，我改用ECDSA的加密。</p>
+<p>在創建SSHkey的時候改用這個指令</p>
+<p><strong>ssh-keygen -t ecdsa -b 521 -C "your_email@example.com"</strong></p>
 <p><strong>架設Nginx伺服器</strong></p>
 <p><!--配合 Wink 檔案將 js 檔案設定如下--></p>
 <script>

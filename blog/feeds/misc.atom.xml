@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM2022 - Misc</title><link href="https://s40723207.github.io/wcm2022/blog/index.html/" rel="alternate"></link><link href="https://s40723207.github.io/wcm2022/blog/index.html/feeds/misc.atom.xml" rel="self"></link><id>https://s40723207.github.io/wcm2022/blog/index.html/</id><updated>2022-04-22T11:49:53+08:00</updated><entry><title>midterm</title><link href="https://s40723207.github.io/wcm2022/blog/index.html/midterm.html" rel="alternate"></link><published>2022-04-22T11:00:00+08:00</published><updated>2022-04-22T11:25:15+08:00</updated><author><name>s40723207</name></author><id>tag:s40723207.github.io,2022-04-22:/wcm2022/blog/index.html/midterm.html</id><content type="html">&lt;p&gt;&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" /&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;啟用Blog
+編輯pelican內容&lt;/p&gt;
+&lt;script&gt;
+var winkVideo-midterm = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideo-midterm" height="630" muted="true" width="1008"&gt;
+&lt;source src="./../downloads/blog/winkVideo-midterm" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="WCM2022"></category></entry><entry><title>midterm</title><link href="https://s40723207.github.io/wcm2022/blog/index.html/midterm.html" rel="alternate"></link><published>2022-04-22T11:00:00+08:00</published><updated>2022-04-22T11:49:53+08:00</updated><author><name>s40723207</name></author><id>tag:s40723207.github.io,2022-04-22:/wcm2022/blog/index.html/midterm.html</id><content type="html">&lt;p&gt;&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" /&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+
+&lt;h2&gt;期中考&lt;/h2&gt;
+&lt;script&gt;
+var winkVideoData_w8 = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_w8" height="630" muted="true" width="1008"&gt;
+&lt;source src="./../downloads/blog/w8_project.mp4" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="WCM2022"></category></entry></feed>

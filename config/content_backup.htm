@@ -291,7 +291,6 @@ function doSave(storage_id, filename){
 }
 </script>
 </p>
-<p><button id="add1to100">add 1 to 100</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -310,7 +309,7 @@ function doSave(storage_id, filename){
 <p><!-- 這裡的畫布 id 為 brython_div --></p>
 <div id="brython_div"></div>
 <!-- graphics-column is for ggame -->
-<div class="col-md-0" height="1" id="graphics-column" width="1"></div>
+<div class="col-md-0" height="2" id="graphics-column" width="2"></div>
 <p><!-- ######################  editor1 結束 ###################### --></p>
 <p><!-- 以下可以開始利用 editor1 的設定編寫對應 Brython 程式 -->
 <script type="text/python3">
@@ -619,7 +618,16 @@ def do_game():
                     ctx.fillStyle = '#%02x%02x%02x' % colors[game.figure.color]
                     ctx.fillRect(game.x + game.zoom * (j + game.figure.x) + 1,
                                       game.y + game.zoom * (i + game.figure.y) + 1,
-                                      game.zoom - 2, game.zoom - 2)
+                                      game.zoom - 2, game.zoom 
+    ctx.font = '40px serif'
+    ctx.fillStyle = BLACK
+    ctx.fillText('Score:'+ str(game.score), 100,50)
+    int = 1
+    if game.score >= int:
+        ctx.fillStyle = WHITE
+        ctx.fillRect( 200, 0, 300, 50)
+        ctx.fillStyle = BLACK
+        ctx.fillText(str(game.score), 200,50)
 
 doc.addEventListener("keydown", key_down)
 doc.addEventListener("keyup", key_up)

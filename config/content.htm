@@ -389,13 +389,11 @@ class button2:
 <div class="winkVideoPlayOverlayClass"></div>
 </div>
 <h1>tetris</h1>
-<!-- 導入 brython程式庫 -->
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
 <script>
 window.onload=function(){brython();}
 </script>
-<p>assignment </p>
 <script type="text/python3">
 # from https://levelup.gitconnected.com/writing-tetris-in-python-2a16bddb5318
 # 暫時關閉 system proxy 設定後,  pip install pygame
@@ -619,19 +617,21 @@ def do_game():
                     ctx.fillRect(game.x + game.zoom * (j + game.figure.x) + 1,
                                       game.y + game.zoom * (i + game.figure.y) + 1,
                                       game.zoom - 2, game.zoom -2)
-    ctx.font = '40px serif'
+    ctx.font = '40px Arial'
     ctx.fillStyle = BLACK
-    ctx.fillText('Score:'+ str(game.score), 100,50)
+    ctx.fillText('Score:'+ str(game.score), 140,50)
     int = 1
     if game.score >= int:
         ctx.fillStyle = WHITE
-        ctx.fillRect( 200, 0, 300, 50)
+        ctx.fillRect( 250, 0, 300, 50)
         ctx.fillStyle = BLACK
-        ctx.fillText(str(game.score), 200,50)
+        ctx.fillText(str(game.score), 250,50)
 
 doc.addEventListener("keydown", key_down)
 doc.addEventListener("keyup", key_up)
 browser.timer.set_interval(do_game, fps)
 </script>
-<div id="brython_div"></div>
-<p></p>
+<div id="brython_div"></div><h2>report</h2>
+<p><a href="/downloads/如何在網站上使用brython.pdf">Tetris 線上遊戲專案報告</a></p>
+<p><a href="/downloads/Tetris加入計分系統.pdf">Tetris 線上遊戲加入計分系統報告</a></p>
+<p><a href="/downloads/如何在網站上使用brython.pdf"></a></p>
